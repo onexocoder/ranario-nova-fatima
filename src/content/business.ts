@@ -28,6 +28,6 @@ export const business: Business = {
   instagram: null,
   hours: null,
   heroVideo: null,
-  heroPoster: null,
+  heroPoster: "/media/ranario-fachada.jpg",
   sisterBusinessUrl: null,
 };
