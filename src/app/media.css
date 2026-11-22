@@ -2,11 +2,11 @@
   position: absolute !important;
   inset: 0;
   object-fit: cover;
-  filter: saturate(.78) contrast(1.08) brightness(.62);
+  filter: saturate(.82) contrast(1.04) brightness(.76);
 }
 
 .hero::before {
-  background: linear-gradient(90deg, rgba(7,28,22,.9), rgba(7,28,22,.67) 47%, rgba(7,28,22,.35)), linear-gradient(0deg, rgba(7,28,22,.5), transparent 55%);
+  background: linear-gradient(90deg, rgba(7,28,22,.82), rgba(7,28,22,.56) 47%, rgba(7,28,22,.25)), linear-gradient(0deg, rgba(7,28,22,.42), transparent 55%);
 }
 
 .hero-orb { opacity: .38; mix-blend-mode: screen; }
@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 560px) {
-  .hero::before { background: linear-gradient(180deg, rgba(7,28,22,.5), rgba(7,28,22,.9) 64%, rgba(7,28,22,.96)); }
+  .hero::before { background: linear-gradient(180deg, rgba(7,28,22,.34), rgba(7,28,22,.72) 58%, rgba(7,28,22,.86)); }
   .hero-photo { object-position: 55% center; }
   .gallery-photo figcaption { font-size: .65rem; }
 }
